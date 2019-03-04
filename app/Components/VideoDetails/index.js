@@ -99,7 +99,7 @@ export default class Index extends Component {
 		if(Platform.OS === 'android') {
 			StatusBar.setBackgroundColor('#2d324f',true);
 			StatusBar.setTranslucent(true);
-		}
+		}  
 
     var that = this;
     var underlineStyle = ((I18nManager.isRTL) ? styles.tabUnderLineTrans : styles.tabUnderLine );
